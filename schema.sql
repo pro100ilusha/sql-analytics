@@ -1,4 +1,7 @@
--- Структура базы данных микро-бизнеса
+-- Структура базы для аренды консолей
+-- Три таблицы: Clients, Consoles, Rentals
+-- Связи через внешние ключи client_id и console_id
+-- Писал для учебного проекта
 CREATE TABLE Clients (
     client_id INT PRIMARY KEY,
     name VARCHAR(100),
