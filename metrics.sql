@@ -1,6 +1,6 @@
--- Основные метрики: сколько всего потратил, средний чек, дата последней покупки.
--- Считаю через GROUP BY family_member.
--- Таблица Payments.
+-- Основные метрики: сколько всего потратил, средний чек, дата последней покупки
+-- Считаю через GROUP BY family_member
+-- Таблица Payments
 SELECT 
     family_member,
     COUNT(*) AS total_purchases,
